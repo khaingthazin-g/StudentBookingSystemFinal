@@ -1,19 +1,52 @@
 <div align="center">
 
+# Student Appointment Booking System
 
-# Run and deploy your AI Studio app
+A web-based appointment booking system developed for students and staff to manage appointments efficiently.
 
-This contains everything you need to run your app locally.
+</div>
 
-View your app in AI Studio: https://ai.studio/apps/e3efb1e4-468d-4fca-acc3-24adf1e6492e
+## Features
+
+- Student registration and login
+- Appointment booking
+- Appointment management
+- Admin dashboard
+- Responsive user interface
+- REST API integration
+
+---
+
+## Technologies Used
+
+### Frontend
+- React JS
+- Tailwind CSS
+
+### Backend
+- Spring Boot
+- REST API
+
+### Database
+- MySQL
+
+---
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+### Prerequisites
+Make sure you have installed:
 
+- Node.js
+- npm
+- Java JDK
+- MySQL
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## Frontend Setup
+
+1. Install dependencies
+
+```bash
+npm install
